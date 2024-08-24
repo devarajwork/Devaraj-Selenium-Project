@@ -7,10 +7,15 @@ This project is a test automation framework based on Selenium and Cucumber. The 
 
 ## Folder Details:
 **Base:** Contains the Base.java file, which includes the setup and teardown methods for the WebDriver and other common configurations used across the framework.
+
 **Hooks:** Includes Hooks.java to manage pre-conditions and post-conditions for the tests using Cucumber annotations.
+
 **Locators:** Holds the page object classes (Login.java, Order.java) which define locators and actions for the respective pages.
+
 **Runner:** The TestRunner.java class is responsible for triggering the execution of the feature files using Cucumber.
+
 **StepDefinition:** Contains the step definition classes (LoginPage.java, OrderFunction.java) where the Gherkin steps from the feature files are implemented.
+
 **Features:** This directory contains the feature files written in Gherkin syntax. Each feature file (e.g., Login.feature, Order.feature) corresponds to a test scenario or a group of related test scenarios.
 
 ## Prerequisites:
