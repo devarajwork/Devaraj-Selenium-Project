@@ -15,13 +15,20 @@ This project is a test automation framework based on Selenium and Cucumber. The 
 
 ## Prerequisites:
 Before you begin, ensure you have met the following requirements:
+
 Java JDK 1.8 or higher installed
+
 Maven installed.
+
 A compatible IDE like IntelliJ IDEA or Eclipse.
+
 ChromeDriver or other WebDriver executable available in your PATH.
 
 
-> Bestt reg,
+> Best reg,
+> 
 > S.Devaraj
+> 
 > Software Quality Analyst
+> 
 > devarajthemaker@gmail.com
