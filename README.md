@@ -4,31 +4,6 @@ This project is a test automation framework built using Selenium and Cucumber. I
 ## Overview
 This project is a test automation framework based on Selenium and Cucumber. The framework allows you to write and run automated tests using the Behavior-Driven Development (BDD) approach. The tests are written in a readable Gherkin format, making them easy to understand and maintain.
 
-## Project Structure
-src
-│
-├───test
-│   ├───java
-│   │   ├───Base
-│   │   │   └───Base.java
-│   │   ├───Hooks
-│   │   │   └───Hooks.java
-│   │   ├───Locators
-│   │   │   ├───Login.java
-│   │   │   └───Order.java
-│   │   ├───Runner
-│   │   │   └───TestRunner.java
-│   │   └───StepDefinition
-│   │       ├───LoginPage.java
-│   │       └───OrderFunction.java
-│   └───resources
-│       └───Features
-│           ├───Login.feature
-│           └───Order.feature
-├───JRE System Library [JavaSE-1.8]
-├───Maven Dependencies
-├───src
-├───target
 
 ## Folder Details:
 **Base:** Contains the Base.java file, which includes the setup and teardown methods for the WebDriver and other common configurations used across the framework.
@@ -46,7 +21,7 @@ A compatible IDE like IntelliJ IDEA or Eclipse.
 ChromeDriver or other WebDriver executable available in your PATH.
 
 
-Bestt reg,
-S.Devaraj
-Software Quality Analyst
-devarajthemaker@gmail.com
+> Bestt reg,
+> S.Devaraj
+> Software Quality Analyst
+> devarajthemaker@gmail.com
