@@ -18,7 +18,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Base {
 	public static RemoteWebDriver driver;
-
+// browser methods
 	public static WebDriver browserlaunch(String Browsername) {
 		if (Browsername.equalsIgnoreCase("Chrome")) {
 			WebDriverManager.chromedriver().setup();
@@ -27,7 +27,7 @@ public class Base {
 			options.addArguments("use-fake-ui-for-media-stream");
 			driver = new ChromeDriver(options);
 		} else if (Browsername.equalsIgnoreCase("edge")) {
-			WebDriverManager.edgedriver().setup();
+			WebDriverManager.edgedriver().setup();  
 			EdgeOptions options = new EdgeOptions();
 			options.addArguments("--disable-notifications");
 			driver = new EdgeDriver(options);
@@ -39,6 +39,8 @@ public class Base {
 		}
 		return driver;
 	}
+	
+	//selenium elements, actions methods
 
 	public static void urllaunch(String url) {
 		driver.get(url);
