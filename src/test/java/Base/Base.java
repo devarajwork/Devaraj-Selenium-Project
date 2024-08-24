@@ -61,6 +61,7 @@ public class Base {
 		a.sendKeys(string);
 	}
 
+	
 	public static void clear(WebElement a) {
 		a.clear();
 	}

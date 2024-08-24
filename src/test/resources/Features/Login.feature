@@ -16,7 +16,7 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
-@login @Start
+@login @Start @regression
 Feature: Login
   I want to use this login for my feature file
 
